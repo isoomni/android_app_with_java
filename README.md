@@ -1,5 +1,4 @@
 # Inflearn Java Study
----
 자바 스터디 인프런 강의 필기 및 실습을 기록합니다.
 
 ## 2021-09-05
@@ -15,35 +14,36 @@
 
 + 자료형
 
-int : 정수형
+    + int : 정수형
 
-long : +-21억이 넘어가면 사용
+    + long : +-21억이 넘어가면 사용
 
-float : 소수점이 들어가면 사용
+    + float : 소수점이 들어가면 사용
 
-string : 메모리가 터질 때까지 사용가능
+    + string : 메모리가 터질 때까지 사용가능
 
-boolean : 참, 거짓
+    + boolean : 참, 거짓
 
-char : 'A', 'B' - String은 char의 집합
+    + char : 'A', 'B' - String은 char의 집합
 
 + 변수
 
-int myNumber  = 10000;
+    + int myNumber  = 10000;
 
-myNumber 에 10000을 넣는다.
+    + myNumber 에 10000을 넣는다.
 
 
 + 주석
+
 // int myNumber  = 10000;
 
 ### 메서드
 
-Java 에서는 method, C에서는 함수이다.
++ Java 에서는 method, C에서는 함수이다.
 
-변수가 하나의 자료라면 함수는 하나의 행동
++ 변수가 하나의 자료라면 함수는 하나의 행동
 
-변수를 넣으면 리턴을 뱉어내는 기계 부품이다.
++ 변수를 넣으면 리턴을 뱉어내는 기계 부품이다.
 
 ### if / Array / for
 
