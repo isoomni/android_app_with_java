@@ -1,4 +1,4 @@
-public class Game{  
+public class Prac{  
 
     static class Player {
 
@@ -13,7 +13,7 @@ public class Game{
         }
 
         public void attack(Enemy enemy){
-            System.out.println("플레이어가 " + enemy.name + "을/를 공격했습니다.");
+            System.out.println(this.name + "이/가 " + enemy.name + "을/를 공격했습니다.");
             enemy.hp -= this.atk;
             System.out.println("공격: "+ this.atk+ "\n" + enemy.name + "의 hp: " +enemy.hp);
         }
@@ -40,8 +40,8 @@ public class Game{
         }
 
         public void attack(Player player){
-            System.out.println(this.name + "이 " + player.name + "을 공격했습니다.");
-            player.hp = this.atk;
+            System.out.println(this.name + "이/가 " + player.name + "을 공격했습니다.");
+            player.hp -= this.atk;
             System.out.println("공격: "+ this.atk+ "\n" + player.name + "의 hp: " + player.hp);
         }
 
@@ -60,6 +60,9 @@ public class Game{
 
         while(player.isLive() && enemy.isLive()){
             player.attack(enemy);
+            if (!enemy.isLive()){ // 적이 죽음
+                 break;
+            }
             enemy.attack(player);
         }
         if (player.isLive()){
