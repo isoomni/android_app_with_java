@@ -1,4 +1,4 @@
-package sessionTwo.Interface;
+package sessionTwo.InterfaceOne;
 
 public class Dog extends Animal implements Pet {
 

@@ -1,4 +1,4 @@
-package sessionTwo.Interface;
+package sessionTwo.InterfaceOne;
 
 public interface Pet {  // 개와 고양이는 애완동물이라는 공통점이 있다. -> 추상클래스를 인터페이스로 만든다.
     

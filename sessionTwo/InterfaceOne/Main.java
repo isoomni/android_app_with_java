@@ -1,4 +1,4 @@
-package sessionTwo.Interface;
+package sessionTwo.InterfaceOne;
 
 public class Main {
     public static void main(String[] args){

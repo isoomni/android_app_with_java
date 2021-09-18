@@ -1,4 +1,4 @@
-package sessionTwo.Interface;
+package sessionTwo.InterfaceOne;
 
 public class Wolf extends Animal{
     public Wolf(String name) {

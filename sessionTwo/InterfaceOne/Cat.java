@@ -1,4 +1,4 @@
-package sessionTwo.Interface;
+package sessionTwo.InterfaceOne;
 
 public class Cat extends Animal implements Pet { // extents Animal을 통해 상속을 받는다.
     public Cat(String name) {
