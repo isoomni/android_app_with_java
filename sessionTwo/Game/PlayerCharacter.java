@@ -1,4 +1,4 @@
-package Game;
+package sessionTwo.Game;
 
 // 상속을 해보자
 

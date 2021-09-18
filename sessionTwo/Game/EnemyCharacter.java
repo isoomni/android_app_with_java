@@ -1,4 +1,4 @@
-package Game;
+package sessionTwo.Game;
 
 public class EnemyCharacter extends Character {
 
