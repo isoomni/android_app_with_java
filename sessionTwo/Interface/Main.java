@@ -12,5 +12,11 @@ public class Main {
         dog.Cry();
         cat.Cry();
         wolf.Cry();
+
+        Pet pet1 = new Cat("mew");
+        Pet pet2 = new Dog("baduk");
+
+        pet1.FoodCall();
+        pet2.FoodCall();
     }
 }
