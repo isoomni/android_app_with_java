@@ -1,3 +1,5 @@
+package Game;
+
 // 상속을 해보자
 
 public class PlayerCharacter extends Character {

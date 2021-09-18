@@ -1,3 +1,5 @@
+package Game;
+
 public class Character {
     String name;
     int hp;
