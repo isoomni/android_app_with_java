@@ -13,10 +13,12 @@ public class Main {
         cat.Cry();
         wolf.Cry();
 
-        Pet pet1 = new Cat("mew");
+        Pet pet1 = new Cat("nyang");
         Pet pet2 = new Dog("baduk");
 
         pet1.FoodCall();
         pet2.FoodCall();
+
+        ((Cat)pet1).Cry();        // 형 변환을 통해서 클래스로 바로 형변환 할 수도 있다.
     }
 }
